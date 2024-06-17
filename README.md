@@ -62,10 +62,10 @@
    - Du måste vara inloggad som admin för att använda ovanstående endpoints. Om du inte är inloggad kommer du få ett felmeddelande.
 
 **Krav för att lägga till en ny produkt**
-   - `title`, `desc`, och `price` är obligatoriska fält.
+   - title, desc, och price är obligatoriska fält.
    - Försök att lägga till en produkt som inte uppfyller dessa krav kommer att stoppas.
    - Det går inte att lägga till en produkt med samma namn som en befintlig produkt.
 
  **Krav för att skapa en kampanj**
-   - `campaignPrice` är ett obligatoriskt fält och måste vara ett nummer.
+   - campaignPrice är ett obligatoriskt fält och måste vara ett nummer.
    - Identiska kampanjer får inte läggas till.
