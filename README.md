@@ -1,8 +1,8 @@
 1. **Hämta menyn**
-  - http://localhost:8080/menu 
+  - `http://localhost:8080/menu `
    
 2. **Hämta kampanjer**
-  - GET http://localhost:8080/campaigns
+  - `GET http://localhost:8080/campaigns`
   - Returnerar kampanjer om det finns, annars visas ett felmeddelande.
 
 ### Admin 
