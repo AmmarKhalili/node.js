@@ -2,15 +2,15 @@
     `GET http://localhost:8080/menu`
    
 2. **Hämta kampanjer**
-    `GET http://localhost:8080/campaigns`
-    Returnerar kampanjer om det finns, annars visas ett felmeddelande.
+   - `GET http://localhost:8080/campaigns`
+  - Returnerar kampanjer om det finns, annars visas ett felmeddelande.
 
 ### Admin 
 
 
 1. **Logga in som admin**
-   `POST http://localhost:8080/login`
-    Exempel på body:
+ - `POST http://localhost:8080/login`
+  -  Exempel på body:
      ```json
      {
        "username": "admin",
