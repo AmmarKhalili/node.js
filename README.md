@@ -1,8 +1,8 @@
 1. **Hämta menyn**
-    `GET http://localhost:8080/menu`
+  - `GET http://localhost:8080/menu`
    
 2. **Hämta kampanjer**
-   - `GET http://localhost:8080/campaigns`
+  - `GET http://localhost:8080/campaigns`
   - Returnerar kampanjer om det finns, annars visas ett felmeddelande.
 
 ### Admin 
@@ -19,8 +19,8 @@
      ```
 
 2. **Lägga till produkt i meny**
-    `POST http://localhost:8080/menu`
-    Exempel på body:
+  -  `POST http://localhost:8080/menu`
+ -  Exempel på body:
      ```json
      {
        "title": "Arbic coffe",
@@ -30,11 +30,11 @@
      ```
 
 3. **Ta bort produkt från meny**
-    `DELETE http://localhost:8080/menu/:id`
+   - `DELETE http://localhost:8080/menu/:id`
 
 4. **Ändra produkt**
-    `PUT http://localhost:8080/menu/:id`
-   Exempel på body:
+  -  `PUT http://localhost:8080/menu/:id`
+-   Exempel på body:
      ```json
      {
        "title": " produkt",
@@ -44,8 +44,8 @@
      ```
 
 5. **Skapa ny kampanj**
-    `POST http://localhost:8080/campaigns`
-    Exempel på body:
+  -  `POST http://localhost:8080/campaigns`
+  -  Exempel på body:
      ```json
      {
        "products": ["Bryggkaffe", "Caffè Doppio"],
@@ -54,7 +54,7 @@
      ```
 
 6. **Ta bort kampanj**
-    `DELETE http://localhost:8080/campaigns/:id`
+   - `DELETE http://localhost:8080/campaigns/:id`
 
 ...............................................................................
 
