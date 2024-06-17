@@ -1,5 +1,5 @@
 1. **Hämta menyn**
-  - `http://localhost:8080/menu `
+  - http://localhost:8080/menu 
    
 2. **Hämta kampanjer**
   - `GET http://localhost:8080/campaigns`
