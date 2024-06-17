@@ -30,7 +30,7 @@
      ```
 
 3. **Ta bort produkt från meny**
-   - `DELETE http://localhost:8080/menu/:id`
+    - `DELETE http://localhost:8080/menu/:id`
 
 4. **Ändra produkt**
   -  `PUT http://localhost:8080/menu/:id`
@@ -54,7 +54,7 @@
      ```
 
 6. **Ta bort kampanj**
-   - `DELETE http://localhost:8080/campaigns/:id`
+    - `DELETE http://localhost:8080/campaigns/:id`
 
 ...............................................................................
 
